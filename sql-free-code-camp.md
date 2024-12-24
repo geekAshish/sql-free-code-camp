@@ -76,3 +76,23 @@ DELIMITER ;`
 - DROP TRIGGER trigger_name;
 
 # ER Diagrams Intro
+
+1. Entity Relationship diagram
+2. Entity - An object we want to model & store information about
+3. Attributes - Specific pieces of information about an entity
+4. Primary Key - An attribute(s) that uniquely identify an entry in the database table
+5. Composite Attribute - An attribute that can be broken up into sub-attributes
+6. Multi-valued Attribute - An attribute that can have more than one value : two circles
+7. Derived Attribute - An attribute that can be derived from the other attributes : dotted line circle
+8. Multiple Entities - You can define more than one entity in the diagram
+9. Relationships - defines a relationship between two entities
+10. Total Participation - All members must participate in the relationship : double line
+11. Partial participation - single line
+12. Relationship Attribute - An attribute about the relationship
+13. Relationship Cardinality - the number of instances of an entity from a relation that can be associated with the relation
+14. Weak Entity - An entity that cannot be uniquely identified by its attributes alone
+15. Identifying relationship - A relationship that serves to uniquely identify the weak entity
+
+# Converting ER Diagrams to Schemas
+
+4:08:34
